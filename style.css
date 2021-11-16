@@ -1,0 +1,23 @@
+ *{
+     font-weight: bold;
+   }
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.corporate-logo{
+    background-color: rgba(182, 238, 240, 0.226);
+}
+
+.co-logo{  
+    display: flex;
+    flex-direction:column,column;
+    justify-content: space-between;
+}
+p{
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
+}  
