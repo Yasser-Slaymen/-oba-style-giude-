@@ -21,3 +21,44 @@ p{
     font-size: 1.5em;
     text-align: center;
 }  
+.basiskleuren{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+.bsklu1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ff0000;
+}
+.bsklu2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:white;
+}
+.bsklu3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:black;
+}
+.bsklu4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.bsklu5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(194, 145, 10);
+}
+.bsklu6{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:silver;
+}
