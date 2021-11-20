@@ -21,44 +21,144 @@ p{
     font-size: 1.5em;
     text-align: center;
 }  
-.basis-kleuren{
-    display: flex;
-    justify-content: space-between;
+.basis-kleuren{ 
+    display: grid;
+    grid-template-columns:repeat(7,auto);
+    justify-content:space-around;
+    justify-items: center;
     background-color: cadetblue;
+    margin-bottom: 3em;
+}
+
+h2.basis{
+    grid-column: 1/8;
 }
 .bsklu1{
+    margin-left: 1.5em;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color: #ff0000;
 }
 .bsklu2{
+    margin-left: 1.5em;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color:white;
 }
 .bsklu3{
+    margin-left: 1.5em;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color:black;
 }
 .bsklu4{
+    margin-left: 1.5em;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color:gray;
 }
 .bsklu5{
+    margin-left: 1.5em;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color:rgb(194, 145, 10);
 }
 .bsklu6{
+    margin-left: 1.5em;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color:silver;
 }
+
+ h2.voorkeur{ 
+    grid-column: 1/6;
+}
+
+.voorkeur-kleuren{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(3,auto);
+    gap: 2em;
+    justify-content:space-around;
+    background-color: rgb(106, 207, 86);
+
+}
+
+.voorkeur1{
+    margin-left: 1.5em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb( 255,100,0);
+}
+.voorkeur2{
+    margin-left: 1.5em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(160,0,120);
+}
+.voorkeur3{
+    margin-left: 1.5em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(0,100,200);
+}
+.voorkeur4{
+    margin-left: 1.5em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(0,155,150);
+}
+.voorkeur5{
+    margin-left: 1.5em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(255,160,0);
+}
+.voorkeur6{
+    margin-left: 1.5em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(90,60,160);
+}
+.voorkeur7{
+    margin-left: 1.5em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(75,170,50);
+}
+.voorkeur8{
+    margin-left: 1.5em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(230,0,130);
+}
+.voorkeur9{
+    margin-left: 1.5em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(0,150,230);
+}
+.voorkeur10{
+    margin-left: 1.5em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(180,200,0);
+}
+
+
