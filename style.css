@@ -1,5 +1,6 @@
- *{
-     font-weight: bold;
+html {
+    font-family: 'Avenir', Helvetica, sans-serif;
+    background-color: #fafafa;
   }
 h1 {
     text-align: center;
@@ -8,7 +9,7 @@ h2{
     text-align: center;
 }
 .corporate-logo{
-    background-color: rgba(182, 238, 240, 0.226);
+    
 }
 
 .co-logo{  
@@ -26,7 +27,6 @@ p{
     grid-template-columns:repeat(7,auto);
     justify-content:space-around;
     justify-items: center;
-    background-color: cadetblue;
     margin-bottom: 3em;
 }
 
@@ -46,6 +46,7 @@ h2.basis{
     height: 100px;
     border-radius: 50%;
     background-color:white;
+    border:.1em solid black ;
 }
 .bsklu3{
     margin-left: 1.5em;
@@ -86,8 +87,6 @@ h2.basis{
     grid-template-rows: repeat(3,auto);
     gap: 2em;
     justify-content:space-around;
-    background-color: rgb(106, 207, 86);
-
 }
 
 .voorkeur1{
@@ -159,6 +158,26 @@ h2.basis{
     height: 100px;
     border-radius: 50%;
     background-color:rgb(180,200,0);
+}
+/* buttons */
+.btnh{
+    margin-right: 50em;
+    font-size: 2em;
+}
+.btn1{
+    width: 5em;
+    height:2.5em ;
+    border:1px solid rgb(245, 11, 11);
+    border-radius:.5em ;
+    color: red;
+}
+.btn2{
+    width: 5em;
+    height:2.5em ;
+    border: 1em sold black;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
 }
 
 
